@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:id="@+id/tv_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Edit Profile"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_url_profile"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:hint="Select photo to add in your profile"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_url_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edit_profile" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_url_profile"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+
+
+        android:src="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="@+id/et_url_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_url_profile"
+        app:layout_constraintTop_toTopOf="@+id/et_url_profile" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_edit_name"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+        android:background=""
+        android:src="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edit_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_url_profile"
+        app:layout_constraintTop_toTopOf="@+id/et_edit_name" />
+
+    <EditText
+        android:id="@+id/et_edit_name"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Edit your name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_url_profile"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_url_profile"
+        app:layout_constraintTop_toBottomOf="@+id/et_url_profile" />
+
+    <EditText
+        android:id="@+id/et_edit_tag"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="TAg or Your Skill"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_edit_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_edit_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_edit_name" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_edit_tag"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+
+        android:src="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edit_tag"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_edit_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_edit_name"
+        app:layout_constraintTop_toTopOf="@+id/et_edit_tag" />
+
+    <EditText
+        android:id="@+id/et_edit_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:hint="Info"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/et_edit_tag"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_edit_tag" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_edi_info"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+
+        android:src="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edit_info"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_edit_tag"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_edit_tag"
+        app:layout_constraintTop_toTopOf="@+id/et_edit_info" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

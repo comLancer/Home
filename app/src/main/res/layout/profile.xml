@@ -2,8 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   >
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tv_edit_profile"
@@ -35,25 +34,23 @@
         android:id="@+id/imgbtn_url_profile"
         android:layout_width="0dp"
         android:layout_height="47dp"
-
-
         android:src="@drawable/ic_edit"
         app:layout_constraintBottom_toBottomOf="@+id/et_url_profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/et_url_profile"
         app:layout_constraintTop_toTopOf="@+id/et_url_profile" />
 
-    <ImageButton
-        android:id="@+id/imgbtn_edit_name"
-        android:layout_width="51dp"
-        android:layout_height="47dp"
-        android:background=""
-        android:src="@drawable/ic_edit"
-        app:layout_constraintBottom_toBottomOf="@+id/et_edit_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imgbtn_url_profile"
-        app:layout_constraintTop_toTopOf="@+id/et_edit_name" />
-
+    <!--   <ImageButton
+           android:id="@+id/imgbtn_edit_name"
+           android:layout_width="51dp"
+           android:layout_height="47dp"
+           android:background=""
+           android:src="@drawable/ic_edit"
+           app:layout_constraintBottom_toBottomOf="@+id/et_edit_name"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="@+id/imgbtn_url_profile"
+           app:layout_constraintTop_toTopOf="@+id/et_edit_name" />
+   -->
     <EditText
         android:id="@+id/et_edit_name"
         android:layout_width="0dp"
@@ -80,17 +77,17 @@
         app:layout_constraintStart_toStartOf="@+id/et_edit_name"
         app:layout_constraintTop_toBottomOf="@+id/et_edit_name" />
 
-    <ImageButton
-        android:id="@+id/imgbtn_edit_tag"
-        android:layout_width="51dp"
-        android:layout_height="47dp"
+    <!-- <ImageButton
+         android:id="@+id/imgbtn_edit_tag"
+         android:layout_width="51dp"
+         android:layout_height="47dp"
 
-        android:src="@drawable/ic_edit"
-        app:layout_constraintBottom_toBottomOf="@+id/et_edit_tag"
-        app:layout_constraintEnd_toEndOf="@+id/imgbtn_edit_name"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imgbtn_edit_name"
-        app:layout_constraintTop_toTopOf="@+id/et_edit_tag" />
+         android:src="@drawable/ic_edit"
+         app:layout_constraintBottom_toBottomOf="@+id/et_edit_tag"
+         app:layout_constraintEnd_toEndOf="@+id/imgbtn_edit_name"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="@+id/imgbtn_edit_name"
+         app:layout_constraintTop_toTopOf="@+id/et_edit_tag" />-->
 
     <EditText
         android:id="@+id/et_edit_info"
@@ -105,16 +102,16 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/et_edit_tag" />
 
-    <ImageButton
-        android:id="@+id/imgbtn_edi_info"
-        android:layout_width="51dp"
-        android:layout_height="47dp"
+    <!--  <ImageButton
+          android:id="@+id/imgbtn_edi_info"
+          android:layout_width="51dp"
+          android:layout_height="47dp"
 
-        android:src="@drawable/ic_edit"
-        app:layout_constraintBottom_toBottomOf="@+id/et_edit_info"
-        app:layout_constraintEnd_toEndOf="@+id/imgbtn_edit_tag"
-        app:layout_constraintStart_toStartOf="@+id/imgbtn_edit_tag"
-        app:layout_constraintTop_toTopOf="@+id/et_edit_info" />
+          android:src="@drawable/ic_edit"
+          app:layout_constraintBottom_toBottomOf="@+id/et_edit_info"
+          app:layout_constraintEnd_toEndOf="@+id/imgbtn_edit_tag"
+          app:layout_constraintStart_toStartOf="@+id/imgbtn_edit_tag"
+          app:layout_constraintTop_toTopOf="@+id/et_edit_info" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

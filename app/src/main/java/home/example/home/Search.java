@@ -13,5 +13,7 @@ public class Search extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.activity_search, container, false);
+
+
     }
 }

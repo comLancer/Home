@@ -18,12 +18,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/et_url_profile"
-        android:layout_width="335dp"
-        android:layout_height="50dp"
+    <ImageView
+        android:id="@+id/et_url_profile2"
+        android:layout_width="221dp"
+        android:layout_height="102dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="9dp"
         android:ems="10"
         android:hint="Select photo to add in your profile"
@@ -34,13 +34,13 @@
 
     <ImageButton
         android:id="@+id/imgbtn_url_profile"
-        android:layout_width="0dp"
-        android:layout_height="47dp"
+        android:layout_width="78dp"
+        android:layout_height="54dp"
         android:src="@drawable/ic_edit"
-        app:layout_constraintBottom_toBottomOf="@+id/et_url_profile"
+        app:layout_constraintBottom_toBottomOf="@+id/et_url_profile2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/et_url_profile"
-        app:layout_constraintTop_toTopOf="@+id/et_url_profile" />
+        app:layout_constraintStart_toEndOf="@+id/et_url_profile2"
+        app:layout_constraintTop_toTopOf="@+id/et_url_profile2" />
 
     <!--   <ImageButton
            android:id="@+id/imgbtn_edit_name"
@@ -61,10 +61,10 @@
         android:ems="10"
         android:hint="Edit your name"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_url_profile"
+        app:layout_constraintEnd_toEndOf="@+id/et_url_profile2"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/et_url_profile"
-        app:layout_constraintTop_toBottomOf="@+id/et_url_profile" />
+        app:layout_constraintStart_toStartOf="@+id/et_url_profile2"
+        app:layout_constraintTop_toBottomOf="@+id/et_url_profile2" />
 
     <EditText
         android:id="@+id/et_edit_tag"
@@ -95,14 +95,29 @@
         android:id="@+id/et_edit_info"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="248dp"
+        android:layout_marginBottom="244dp"
         android:ems="10"
         android:hint="Info"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/et_edit_tag"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/et_edit_tag" />
+        app:layout_constraintStart_toStartOf="@+id/et_edit_tag"
+        app:layout_constraintTop_toBottomOf="@+id/et_edit_tag"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_submit_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_edit_info"
+        app:layout_constraintVertical_bias="0.108" />
 
     <!--  <ImageButton
           android:id="@+id/imgbtn_edi_info"

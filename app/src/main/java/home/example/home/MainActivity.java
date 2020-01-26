@@ -15,7 +15,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 public class MainActivity extends AppCompatActivity {
-
+    String NameEditProfile;
     Uri mImageUri;
     private StorageReference mStorageRef;
     private FirebaseAuth mAuth;
